@@ -145,12 +145,14 @@
       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
         <div class="info-items highlight-font">
-          <div class="info-item">{$ location.city $}. {$ dates $}</div>
-          <div class="info-item">{$ heroSettings.home.description $}</div>
+            <div class="info-item">{$ heroSettings.home.description $}</div>
+          <div class="info-item"> 3rd November, 2018.</div>
+<!--            {$ location.city $}-->
+          
         </div>
 
 
-        <div class="action-buttons" layout horizontal center-justified wrap>
+        <!--<div class="action-buttons" layout horizontal center-justified wrap>
           <paper-button
             class="watch-video"
             on-tap="_playVideo"
@@ -173,7 +175,7 @@
             <iron-icon icon="hoverboard:ticket"></iron-icon>
             {$ buyTicket $}
           </paper-button>
-        </div>
+        </div>-->
 
         <div class="scroll-down" on-tap="_scrollNextBlock">
           <svg xmlns="http://www.w3.org/2000/svg"  version="1.1" id="Layer_2" x="0px" y="0px" viewBox="0 0 25.166666 37.8704414" enable-background="new 0 0 25.166666 37.8704414" xml:space="preserve">
@@ -186,12 +188,12 @@
     </hero-block>
     <about-block></about-block>
     <speakers-block></speakers-block>
-    <subscribe-block></subscribe-block>
-    <tickets-block></tickets-block>
-    <gallery-block></gallery-block>
+<!--    <subscribe-block></subscribe-block>-->
+<!--    <tickets-block></tickets-block>-->
+<!--    <gallery-block></gallery-block>-->
     <about-organizer-block></about-organizer-block>
-    <featured-videos></featured-videos>
-    <latest-posts-block></latest-posts-block>
+<!--    <featured-videos></featured-videos>-->
+<!--    <latest-posts-block></latest-posts-block>-->
     <map-block></map-block>
     <partners-block></partners-block>
     <footer-block></footer-block>
